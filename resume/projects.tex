@@ -1,0 +1,115 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Software Engineer} % Job title
+    {Stereo Photometry Study} % Organization
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Developing \textbf{Stereo Photometry} setup and application for \textbf{surface and damage inspection} as a side project}
+        \item {The setup will employ 20 lights located in a hemispherical structure to capture the object of interest in several different lights condition}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Software \& Embedded Engineer - Master Thesis} % Job title
+    {Dynamic Reconfigurability Soft-GPU} % Organization
+    {Pisa, Italy} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Enabled \textbf{Dynamic Partial Reconfiguration} of a Soft-GPU in a Risc-V based System-on-Chip implemented on top of an FPGA}
+        \item {The work allows an SoC implemented on an FPGA to replace on-demand and at runtime a portion of the system, in this case the soft-gpu can be replaced with a more power-efficient one (up to 75\% energy savings) or more performing (up to 8x speedup) depending on the workload}
+        \item {Assessed computational performance and power savings of the system via complex simulation of the switching activity}
+        \item {Tested final system on two \textbf{high-end FPGAs}: MPSoC ZCU106 and VCU128, achieving a Reconfiguration time of the soft-GPU of \textasciitilde 15ms}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  % \cventry
+  %   {Software Developer - University Project} % Job title
+  %   {Task Manager - \href{https://github.com/FilippoGuggino/TaskManagerProject}{\textcolor{red}{Github}}} % Organization
+  %   {Pisa, Italy} % Location
+  %   {} % Date(s)
+  %   {
+  %     \begin{cvitems} % Description(s) of tasks/responsibilities
+  %       \item {Implemented in \textbf{Erlang} a Distributed Web Application offering a task management service (similar to Trello)}
+  %       \item {Developed a distributed system composed of a LoadBalancer (\textbf{HAProxy}), a variable number of \textbf{Tomcat} servers, a \textbf{RabbitMQ} instance and a set of \textbf{Erlang} backend servers in a 'Primary-backup replication' configuration}
+  %       \item {Designed a backend recovery system: servers are able to disconnect from the network (this event is detected using an heartbeat). When the server comes back on, a recovery algorithm starts synchronizing with the other servers}
+  %       \item {In the case that the primary fails, an instance of the Bully algorithm is used to elect a new Primary server}
+  %       \item {Provided real-time updates to client via \textbf{Websockets} by use of an \textbf{Event-driven} architecture}
+  %     \end{cvitems}
+  %   }
+
+%---------------------------------------------------------
+  % \cventry
+  %   {Software Developer - University Project} % Job title
+  %   {NotesHub - \href{https://github.com/FilippoGuggino/NotesHub-CloudComputing}{\textcolor{red}{Github}}} % Organization
+  %   {Pisa, Italy} % Location
+  %   {} % Date(s)
+  %   {
+  %     \begin{cvitems} % Description(s) of tasks/responsibilities
+  %       \item {Defined a simple cloud application used to store student's notes as a three-layer architecture: frontend, backend and database layer}
+  %       \item {Frontend exposes a set of \textbf{RESTful APIs} using the \textbf{Flask} framework}
+  %       \item {Middleware implements a \textbf{RabbitMQ} instance to manage data communication between frontend and backend}
+  %       \item {Backend manages a \textbf{MongoDB} instance used to store notes information}
+  %     \end{cvitems}
+  %   }
+
+%---------------------------------------------------------
+  % \cventry
+  %   {Software Developer - University Project} % Job title
+  %   {IotWinery - \href{https://github.com/FilippoGuggino/IoT-Winery}{\textcolor{red}{Github}}} % Organization
+  %   {Pisa, Italy} % Location
+  %   {} % Date(s)
+  %   {
+  %     \begin{cvitems} % Description(s) of tasks/responsibilities
+  %       \item {Developed an IoT architecture for a Winery able to fetch a set of metrics from a sensors' network (e.g. temperature, umidity, light intensity, etc.)}
+  %       \item {Each sensor is equipped with the \textbf{Contiki-NG} OS and exposes several \textbf{CoAP} resources accessible by the user in real-time using a \textbf{Tomcat WebApplication}}
+  %       \item {The system is then tested and validated using the \textbf{Cooja Network simulator} environment}
+  %     \end{cvitems}
+  %   }
+
+
+
+% \cventry
+% {Software Engineer - University Project} % Job title
+% {ConnectFourSecure - \href{https://github.com/FilippoGuggino/ConnectFourSecure}{\textcolor{red}{Github}}} % Organization
+% {Pisa, Italy} % Location
+% {} % Date(s)
+% {
+%   \begin{cvitems} % Description(s) of tasks/responsibilities
+%     \item {Implemented in \textbf{C++} a confidential, authenticated and protected against replay attacks implementation of the popular table game Connect Four using the \textbf{OpenSSL} library and best practises}
+%     \item {Asserted client-server and client-client security communication using \textbf{BAN Logic}
+%     }
+%   \end{cvitems}
+% }
+
+% \cventry
+% {Software Engineer - Personal Project} % Job title
+% {MVCBugTracker (Work In Progress) - \href{https://github.com/FilippoGuggino/MvcBugTracker}{\textcolor{red}{Github}}} % Organization
+% {Pisa, Italy} % Location
+% {} % Date(s)
+% {
+%   \begin{cvitems} % Description(s) of tasks/responsibilities
+%     \item {Realization of a \textbf{Serverless} Software Bug tracker inspired by Zoho using \textbf{.NET} framework}
+%     \item {The architecture is completely \textbf{Docker-ized} and deployed using \textbf{Kubernetes}}
+%     \item {Implemented user authentication via \textbf{AWS Cognito}, this gives me the possibility to eventually implement user authentication via Identity Providers}
+%   \end{cvitems}
+% }
+
+% %---------------------------------------------------------
+
+\end{cventries}
